@@ -133,8 +133,8 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    -webkit-filter: brightness(.8);
-    filter: brightness(.8);
+    -webkit-filter: brightness(.4);
+    filter: brightness(.4);
 }
 
 div.banner {
@@ -156,18 +156,124 @@ div.banner .contenedor {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 10px;
 }
 
 div.banner .contenedor h1 {
     color: #fff;
-    font-size: 75px;
+    font-size: 35px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
-
+@media (min-width:480px) {
+    div.banner .contenedor h1 {
+        font-size: 55px;
+    }   
+}
+@media (min-width:800px) {
+    div.banner .contenedor h1 {
+        font-size: 75px;
+    }   
+}
 div.banner .contenedor .linea {
     height: 4px;
-    width: 200px;
+    width: 100px;
     background-color: #fff;
+}
+@media (min-width: 480px){
+    div.banner .contenedor .linea {
+        width: 200px;
+    }   
+}
+.banner .contenedor .redes-sociales a{
+    color: #fff;
+    font-size: 24px;
+    padding: 0 5px;
+}
+/* Navbar */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+}
+@media(max-width:480px){
+    .navbar{
+        padding-top: 20px;
+    }
+}
+.navbar .navbar-brand img{
+    width: 60px;
+}
+@media(min-width:480px){
+    .navbar .navbar-brand img{
+        width: 80px;
+    }
+}
+@media(min-width:800px){
+    .navbar .navbar-brand img{
+        width: 80px;
+    }
+}
+.navbar .nav-item {
+    padding: auto 15px;
+}
+.navbar .nav-item .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3 ease;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #c2a503;
+}
+.navbar .navbar-collapse{
+    flex-grow: 0;
+    background-color: rgb(20, 20, 20);
+}
+@media (min-width: 1000px) {
+    .navbar .navbar-collapse{
+        background-color: transparent;
+    }
+}
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+}
+.navbar-collapse .navbar-nav{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Nosotros */
+section.nosotros h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+@media (min-width: 800px) {
+    section.nosotros h3{
+        font-size: 38px;
+    }
+}
+section.nosotros .logo-empresa{
+    max-width: 80%;
+}
+section.nosotros .logo-empresa img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+section.nosotros h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-top: 0;
+    font-weight: 700;
 }

@@ -13,9 +13,14 @@ const typed = new Typed('.typed',{
     contentType: 'html'
 })
 
-document.addEventListener("DOMContentLoaded",function(){
-
-    document.querySelector("#preload").remove();
-    document.querySelector("body").classList.remove("hidden");
+document.addEventListener("onload",function(){
 
 });
+
+
+function removePreload(){
+    console.log("Listo");
+    document.querySelector("#preload").remove();
+    document.querySelector("body").classList.remove("hidden");
+    document.querySelector(".navbar").classList.remove("hidden");
+}
