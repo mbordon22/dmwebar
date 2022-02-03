@@ -101,7 +101,7 @@
 	<!-- Servicios -->
 	<section class="servicios pb-5" id="servicios">
 		<h3 class="titulo-section text-center pt-5 pb-3">Nuestros Servicios</h3>
-		<div class="hero-section" >
+		<div class="hero-section">
 			<div class="card-grid">
 				<div class="card">
 					<div class="card__background" style="background-image: url(img/services-desarrollo.jpg)"></div>
@@ -128,6 +128,46 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+
+	<!-- Formulario de contacto -->
+	<section class="contacto py-5" id="contacto">
+		<h3 class="titulo-section text-center py-5">!Trabajemos Juntos!</h3>
+		<div class="container">
+			<form action="index.php" method="POST">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<input type="text" name="nombre_contacto" class="form-control" placeholder="Nombre">
+						</div>
+						<div class="col-12 col-md-6">
+							<input type="text" name="email_contacto" class="form-control" placeholder="Email">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-12">
+							<input type="text" name="asunto_contacto" class="form-control" placeholder="Asunto">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-12">
+							<textarea name="mensaje_contacto" id="" class="form-control" cols="30" rows="10" placeholder="Mensaje"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-12">
+							<input type="submit" class="btn btn-secondary btn-block" value="Enviar">
+						</div>
+					</div>
+				</div>
+			</form>
 		</div>
 	</section>
 
