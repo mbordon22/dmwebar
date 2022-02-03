@@ -138,7 +138,7 @@
 			<form action="index.php" method="POST">
 				<div class="form-group">
 					<div class="row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 mb-3 mb-md-0">
 							<input type="text" name="nombre_contacto" class="form-control" placeholder="Nombre">
 						</div>
 						<div class="col-12 col-md-6">
