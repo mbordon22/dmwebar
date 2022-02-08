@@ -30,7 +30,7 @@ window.onscroll = function () {
     document.querySelector(".navbar").classList.remove("bg-black");
   }
 
-  if((position_nosotros.top - 300) > window.scrollY){
+  if(window.scrollY < 100){
     icon_up.style = "display:none";
   } else {
     icon_up.style = "display:block";
