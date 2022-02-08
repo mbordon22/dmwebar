@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name='description' content='Una pagina web o ecommerce es imprescindible hoy en día para mostrar tu trabajo al mundo. En DM - Desarrollo Web nos encargamos de digitalizar tu negocio y ayudarte a llegar a tu objetivo.'>
+	<meta name="keywords" content="Diseño Web, tienda online, crear una pagina web, cotizacion, Diseño web, Páginas web, diseño web, diseñadores web, diseño web argentina, páginas web argentina, ecommerce, sistemas web, sistemas">
+	<meta name="author" content="dmwebar.com">
 	<title>DM - Desarrollo de Páginas Web</title>
 	<link rel="icon" href="img/logo.png">
 	<meta charset="utf-8">
