@@ -212,8 +212,13 @@ div.banner .contenedor .linea {
 .banner .contenedor .redes-sociales a {
   color: #fff;
   font-size: 24px;
-  padding: 0 5px;
+  padding: 6px;
 }
+.banner .contenedor .redes-sociales a:hover{
+  color: #000;
+  background-color: #fff;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -276,6 +281,9 @@ div.banner .contenedor .linea {
 }
 
 /* Nosotros */
+section.nosotros{
+  background-color: #f4f4f4;
+}
 section.nosotros .logo-empresa {
   max-width: 80%;
 }
@@ -298,7 +306,7 @@ section.nosotros .descripcion-nosotros p {
 
 /* Servicios */
 section.servicios{
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 .hero-section {
   align-items: flex-start;
@@ -389,8 +397,71 @@ section.servicios{
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Trabajos realizados */
+section.trabajos{
+  background-color: #030303;
+}
+section.trabajos h3{
+  color: #fff;
+}
+section.trabajos .imagen-proyecto{
+  padding: 10px;
+  border: 1px solid #030303;
+  background-color: #030303;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+section.trabajos .imagen-proyecto:hover{
+  transform: scale(1.2);
+}
+section.trabajos .imagen-proyecto img{
+  width: 100%;
+}
+
 /* Contacto */
 section.contacto{
-  border-top: 1px solid #a1a1a1;
   background-color: #f4f4f4;
+}
+
+
+/* Footer */
+footer{
+  background-color: #030303;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .contenedor-redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+footer .contenedor-redes i{
+  padding: 10px;
+  margin: 0 2px;
+  color: white;
+  font-size: 20px;
+  transition: all .3s ease;
+}
+footer .contenedor-redes i:hover{
+  color: #000;
+  background-color: #fff;
+}
+footer .corp p{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* boton up */
+.contenedor-btn-up a{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.contenedor-btn-up a i{
+  color: #ffa200;
+  font-size: 30px;
 }
